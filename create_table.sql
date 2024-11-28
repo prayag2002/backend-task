@@ -1,0 +1,6 @@
+CREATE TABLE Registration (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    date_of_birth DATE DEFAULT NULL
+);
